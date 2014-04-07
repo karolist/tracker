@@ -1,0 +1,108 @@
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /home/karolis/workspace/movement_1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec643631699/fast"
+make[1]: Entering directory '/home/karolis/workspace/movement_1/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec643631699.dir/build.make CMakeFiles/cmTryCompileExec643631699.dir/build
+make[2]: Entering directory '/home/karolis/workspace/movement_1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/karolis/workspace/movement_1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec643631699.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec643631699.dir/CheckSymbolExists.cxx.o -c /home/karolis/workspace/movement_1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/karolis/workspace/movement_1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/karolis/workspace/movement_1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^
+CMakeFiles/cmTryCompileExec643631699.dir/build.make:60: recipe for target 'CMakeFiles/cmTryCompileExec643631699.dir/CheckSymbolExists.cxx.o' failed
+make[2]: Leaving directory '/home/karolis/workspace/movement_1/build/CMakeFiles/CMakeTmp'
+make[2]: *** [CMakeFiles/cmTryCompileExec643631699.dir/CheckSymbolExists.cxx.o] Error 1
+Makefile:117: recipe for target 'cmTryCompileExec643631699/fast' failed
+make[1]: Leaving directory '/home/karolis/workspace/movement_1/build/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec643631699/fast] Error 2
+
+File /home/karolis/workspace/movement_1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /home/karolis/workspace/movement_1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec140574075/fast"
+make[1]: Entering directory '/home/karolis/workspace/movement_1/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec140574075.dir/build.make CMakeFiles/cmTryCompileExec140574075.dir/build
+make[2]: Entering directory '/home/karolis/workspace/movement_1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/karolis/workspace/movement_1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec140574075.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec140574075.dir/CheckSymbolExists.cxx.o -c /home/karolis/workspace/movement_1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/karolis/workspace/movement_1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/karolis/workspace/movement_1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^
+CMakeFiles/cmTryCompileExec140574075.dir/build.make:60: recipe for target 'CMakeFiles/cmTryCompileExec140574075.dir/CheckSymbolExists.cxx.o' failed
+make[2]: *** [CMakeFiles/cmTryCompileExec140574075.dir/CheckSymbolExists.cxx.o] Error 1
+make[2]: Leaving directory '/home/karolis/workspace/movement_1/build/CMakeFiles/CMakeTmp'
+Makefile:117: recipe for target 'cmTryCompileExec140574075/fast' failed
+make[1]: *** [cmTryCompileExec140574075/fast] Error 2
+make[1]: Leaving directory '/home/karolis/workspace/movement_1/build/CMakeFiles/CMakeTmp'
+
+File /home/karolis/workspace/movement_1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /home/karolis/workspace/movement_1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1435622900/fast"
+make[1]: Entering directory '/home/karolis/workspace/movement_1/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1435622900.dir/build.make CMakeFiles/cmTryCompileExec1435622900.dir/build
+make[2]: Entering directory '/home/karolis/workspace/movement_1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/karolis/workspace/movement_1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1435622900.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec1435622900.dir/CheckSymbolExists.cxx.o -c /home/karolis/workspace/movement_1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/karolis/workspace/movement_1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/karolis/workspace/movement_1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^
+CMakeFiles/cmTryCompileExec1435622900.dir/build.make:60: recipe for target 'CMakeFiles/cmTryCompileExec1435622900.dir/CheckSymbolExists.cxx.o' failed
+make[2]: Leaving directory '/home/karolis/workspace/movement_1/build/CMakeFiles/CMakeTmp'
+make[2]: *** [CMakeFiles/cmTryCompileExec1435622900.dir/CheckSymbolExists.cxx.o] Error 1
+Makefile:117: recipe for target 'cmTryCompileExec1435622900/fast' failed
+make[1]: *** [cmTryCompileExec1435622900/fast] Error 2
+make[1]: Leaving directory '/home/karolis/workspace/movement_1/build/CMakeFiles/CMakeTmp'
+
+File /home/karolis/workspace/movement_1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+

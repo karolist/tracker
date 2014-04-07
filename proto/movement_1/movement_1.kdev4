@@ -1,0 +1,4 @@
+[Project]
+Name=movement_1
+Manager=KDevCMakeManager
+VersionControl=kdevgit

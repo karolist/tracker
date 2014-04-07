@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/karolis/workspace/movement_1/segmentator.cpp
+opencv2/imgproc/imgproc.hpp
+/home/karolis/workspace/movement_1/opencv2/imgproc/imgproc.hpp
+opencv2/highgui/highgui.hpp
+/home/karolis/workspace/movement_1/opencv2/highgui/highgui.hpp
+opencv2/video/background_segm.hpp
+/home/karolis/workspace/movement_1/opencv2/video/background_segm.hpp
+stdio.h
+-
+string
+-
+
